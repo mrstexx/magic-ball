@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 image.setImageResource(images[randomGenerator()]);
-                button.setEnabled(false);
             }
 
             private int randomGenerator() {
